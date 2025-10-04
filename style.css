@@ -1,0 +1,133 @@
+@font-face {
+    font-family: mihir;
+    src: url(Royalty\ Free.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+#main {
+    background: rgb(9, 62, 105);
+    padding: 60px;
+    text-align: center;
+    height: 200px;
+}
+
+#main h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: mihir;
+    font-weight: 900px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#main p {
+    text-align: center;
+    color: aliceblue;
+    padding-top: 10px;
+    font-size: 20px;
+    text-transform: capitalize
+}
+
+#about {
+
+    margin: 20px 100px;
+    background: rgb(245, 245, 245);
+    padding: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 30px;
+}
+
+#about p {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#education {
+    margin: 20px 100px;
+    padding: 50px;
+    background: rgb(187, 194, 197);
+    text-align: center;
+    border-radius: 30px;
+}
+
+#education p {
+    background-color: aliceblue;
+    margin: 20px 200px;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#skills {
+    background-color: rgb(245, 223, 184);
+    margin: 20px 80px;
+    border-radius: 30px;
+    padding: 50px;
+}
+
+#skills p {
+    font-weight: 900;
+    background-color: aliceblue;
+    margin: 20px 200px;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#projects {
+    background-color: rgb(215, 194, 221);
+    margin: 20px 80px;
+    border-radius: 30px;
+    padding: 50px;
+}
+
+#projects p {
+    font-style: italic;
+    background-color: aliceblue;
+    margin: 20px 200px;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#contact {
+    background-color: rgb(207, 245, 213);
+    margin: 20px 80px;
+    border-radius: 30px;
+    padding: 50px;
+}
+
+#contact p {
+    background-color: aliceblue;
+    margin: 20px 200px;
+    padding: 10px;
+    text-align: center;
+}
+
+#footer {
+    background-color: rgb(34, 34, 102);
+    color: aliceblue;
+    padding: 20px;
+}

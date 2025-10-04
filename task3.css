@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+
+}
+
+#nav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav #box1 {
+    margin-left: 80px;
+}
+
+#nav #box3 {
+    margin-right: 80px;
+}
+
+#nav a {
+    font-size: 20px;
+    margin-right: 30px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#main h1 {
+    padding-left: 70px;
+    font-size: 230px;
+
+
+}
+
+#leftbottom {
+    text-transform: capitalize;
+    width: 300px;
+    position: absolute;
+    left: 5%;
+    bottom: 20%;
+}
+
+#leftbottom h4 {
+    margin-top: 30px;
+}
+
+#leftbottom p {
+    margin-top: 10px;
+}
+
+#bottombar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 70px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    text-transform: capitalize;
+}
+
+#bottombar a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+#main>img {
+    height: 250px;
+    position: absolute;
+}
+
+#main #first {
+    top: 35%;
+    left: 61%;
+    height: 300px;
+}
+
+#main #sec {
+    top: 57%;
+    left: 50%;
+    height: 250px;
+
+}
+
+#main #third {
+    top: 35%;
+    left: 43%;
+    height: 200px;
+}
