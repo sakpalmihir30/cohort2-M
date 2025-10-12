@@ -9,12 +9,11 @@ body {
        width: 100%;
 }
 
-.box{
-    height: 100px;
-    width: 100px;
-    background-color: yellow;
-    border: 2px solid black;
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
 }
-.box:nth-last-child(3){
-    background-color: blue;
+.chid{
+    background-color: crimson;    
 }
