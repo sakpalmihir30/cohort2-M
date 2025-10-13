@@ -10,28 +10,42 @@ body {
        width: 100%;
 }
 main{
+    grid-gap: 20px;
+    padding: 20px;
     height: 100%;
     width: 100;
     background-color: black;
     display: grid;
-    grid-template-columns: 200px 1fr;
-    grid-template-rows: 70px 300px 1fr;
-    grid-template-areas: "header header"
-                         "aside section"
-                         "figure figure"
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 70px 200px 1fr 1fr;
+    grid-template-areas: "header header header"
+                         "section section section"
+                         "leftdiv bottomup rightdiv"
+                         "leftdiv bottomdown rightdiv"
+    
     ;
 }
-    
 header{
     grid-area: header;
-    background-color: red;
-
+    background-color: darkblue;
 }
 section{
     grid-area: section;
     background-color: lightseagreen;
 }
-figure{
-    grid-area: figure;
-    background-color: blueviolet;
+#leftdiv{
+    grid-area: leftdiv;
+    background-color:red;
+}
+#bottomup{
+    grid-area: bottomup;
+    background-color: yellow;
+}
+#bottomdown{
+    grid-area: bottomdown;
+    background-color: orange;
+}
+#rightdiv{
+    grid-area: rightdiv;
+    background-color: maroon
 }
