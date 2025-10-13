@@ -1,51 +1,65 @@
-*{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   color: white;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
 }
+
 html,
 body {
-       height: 100%;
-       width: 100%;
+    height: 100%;
+    width: 100%;
 }
-main{
-    grid-gap: 20px;
-    padding: 20px;
+
+main {
+    padding: 10px;
+    grid-gap: 10px;
     height: 100%;
     width: 100;
+    text-align: center;
     background-color: black;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 70px 200px 1fr 1fr;
-    grid-template-areas: "header header header"
-                         "section section section"
-                         "leftdiv bottomup rightdiv"
-                         "leftdiv bottomdown rightdiv"
-    
+    grid-template-columns: 1fr 300px 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "left-top top-center right-top"
+        "left-top center right-bottom"
+        "left-bottom left-bottom right-bottom"
+
     ;
 }
-header{
-    grid-area: header;
-    background-color: darkblue;
-}
-section{
-    grid-area: section;
+
+#left-top {
+    border-radius: 10px;
+    grid-area: left-top;
     background-color: lightseagreen;
 }
-#leftdiv{
-    grid-area: leftdiv;
-    background-color:red;
+
+#left-bottom {
+    border-radius: 10px;
+    grid-area: left-bottom;
+    background-color: darkblue;
 }
-#bottomup{
-    grid-area: bottomup;
+
+#center {
+    border-radius: 10px;
+    grid-area: center;
     background-color: yellow;
 }
-#bottomdown{
-    grid-area: bottomdown;
-    background-color: orange;
+
+#top-center {
+    border-radius: 10px;
+    grid-area: top-center;
+    background-color: darkred;
 }
-#rightdiv{
-    grid-area: rightdiv;
-    background-color: maroon
+
+#right-top {
+    border-radius: 10px;
+    grid-area: right-top;
+    background-color: limegreen;
+}
+
+#right-bottom {
+    border-radius: 10px;
+    grid-area: right-bottom;
+    background-color: darkmagenta;
 }
