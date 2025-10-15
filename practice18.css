@@ -24,7 +24,6 @@ main {
     grid-template-areas: "left-top top-center right-top"
         "left-top center right-bottom"
         "left-bottom left-bottom right-bottom"
-
     ;
 }
 
